@@ -1,0 +1,35 @@
+== Overview
+
+Uses Java reflection to generate source code for kafka-connect schema specification. Leverages Avro reflection libraries to generate Avro schema and translates the schema to kafka-connect schema code.
+
+== Operating systems and/or platforms it runs on
+
+Java compatible platform required.
+
+== Dependency and configuration requirements
+
+Depends on Avro reflection libraries: http://avro.apache.org/docs/current/api/java/org/apache/avro/reflect/package-summary.html
+
+== List of files/directory structure
+
+Organized as a Maven project.
+
+== Basic installation instructions
+
+Be brief, provide links to more detailed documentation
+
+== Basic usage instructions
+
+mvn install to install to local maven repository. Include in your project as a Maven dependency. Run Generator.generate on the class you would like to generate the schema from.
+
+== Copyright and licensing information
+MIT License
+
+== Author(s)
+Francis Reynders
+
+== Bugs
+
+* Maps and Arrays are currently only partially supported and require the value schema to be specified manually in the resulting code.
+* Very basic version originally created for saving time with manually converting classes.
+
