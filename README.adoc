@@ -1,6 +1,6 @@
 == Overview
 
-Uses Java reflection to generate source code for kafka-connect schema specification. Leverages Avro reflection libraries to generate Avro schema and translates the schema to kafka-connect schema code.
+Uses Java reflection to generate source code for kafka-connect schema specification. Leverages Avro reflection libraries to generate Avro schema and translates the schema to kafka-connect schema code (org.apache.kafka.connect.data API, see https://docs.confluent.io/current/connect/devguide.html#working-with-schemas).
 
 == Operating systems and/or platforms it runs on
 
