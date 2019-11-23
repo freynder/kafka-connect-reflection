@@ -14,10 +14,6 @@ Depends on Avro reflection libraries: http://avro.apache.org/docs/current/api/ja
 
 Organized as a Maven project.
 
-== Basic installation instructions
-
-Be brief, provide links to more detailed documentation
-
 == Basic usage instructions
 
 mvn install to install to local maven repository. Include in your project as a Maven dependency. Run Generator.generate on the class you would like to generate the schema from.
